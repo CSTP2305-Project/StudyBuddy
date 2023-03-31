@@ -7,10 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3678915329D61811006BE614 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3678915129D61811006BE614 /* DataModel.xcdatamodeld */; };
+		3678915729D61989006BE614 /* AddCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3678915629D61989006BE614 /* AddCourseView.swift */; };
+		3678915929D61994006BE614 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3678915829D61994006BE614 /* AddTaskView.swift */; };
+		3678915B29D619B0006BE614 /* EditCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3678915A29D619B0006BE614 /* EditCourseView.swift */; };
+		3678915D29D619BE006BE614 /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3678915C29D619BE006BE614 /* EditTaskView.swift */; };
+		3678916029D61A02006BE614 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3678915F29D61A02006BE614 /* DataController.swift */; };
+		3678916529D61B91006BE614 /* CourseActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3678916429D61B91006BE614 /* CourseActions.swift */; };
+		3678916B29D64618006BE614 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3678916A29D64618006BE614 /* TaskView.swift */; };
+		3678917029D65549006BE614 /* Course+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3678916C29D65549006BE614 /* Course+CoreDataClass.swift */; };
+		3678917129D65549006BE614 /* Course+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3678916D29D65549006BE614 /* Course+CoreDataProperties.swift */; };
+		3678917229D65549006BE614 /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3678916E29D65549006BE614 /* Task+CoreDataClass.swift */; };
+		3678917329D65549006BE614 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3678916F29D65549006BE614 /* Task+CoreDataProperties.swift */; };
+		36A6ED7529D552BE00CC226E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36A6ED7429D552BE00CC226E /* Preview Assets.xcassets */; };
+		36B3DBF629D53EAE002DB63D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 36B3DBF529D53EAE002DB63D /* FirebaseFirestore */; };
+		36B3DBF829D53EAE002DB63D /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 36B3DBF729D53EAE002DB63D /* FirebaseFirestoreSwift */; };
+		36B3DBFF29D53F82002DB63D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B3DBFE29D53F82002DB63D /* User.swift */; };
 		A7112A2129D51BF7003694F8 /* StudyBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7112A2029D51BF7003694F8 /* StudyBuddyApp.swift */; };
 		A7112A2329D51BF7003694F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7112A2229D51BF7003694F8 /* ContentView.swift */; };
 		A7112A2529D51C05003694F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7112A2429D51C05003694F8 /* Assets.xcassets */; };
-		A7112A2829D51C05003694F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7112A2729D51C05003694F8 /* Preview Assets.xcassets */; };
 		A7112A3229D51C05003694F8 /* StudyBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7112A3129D51C05003694F8 /* StudyBuddyTests.swift */; };
 		A7112A3C29D51C05003694F8 /* StudyBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7112A3B29D51C05003694F8 /* StudyBuddyUITests.swift */; };
 		A7112A3E29D51C05003694F8 /* StudyBuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7112A3D29D51C05003694F8 /* StudyBuddyUITestsLaunchTests.swift */; };
@@ -34,11 +49,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3678915229D61811006BE614 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		3678915629D61989006BE614 /* AddCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCourseView.swift; sourceTree = "<group>"; };
+		3678915829D61994006BE614 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		3678915A29D619B0006BE614 /* EditCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCourseView.swift; sourceTree = "<group>"; };
+		3678915C29D619BE006BE614 /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
+		3678915F29D61A02006BE614 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		3678916429D61B91006BE614 /* CourseActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseActions.swift; sourceTree = "<group>"; };
+		3678916A29D64618006BE614 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		3678916C29D65549006BE614 /* Course+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Course+CoreDataClass.swift"; path = "StudyBuddy/Model/Course+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3678916D29D65549006BE614 /* Course+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Course+CoreDataProperties.swift"; path = "StudyBuddy/Model/Course+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3678916E29D65549006BE614 /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Task+CoreDataClass.swift"; path = "StudyBuddy/Model/Task+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3678916F29D65549006BE614 /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Task+CoreDataProperties.swift"; path = "StudyBuddy/Model/Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		36A6ED7429D552BE00CC226E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36B3DBFE29D53F82002DB63D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A7112A1D29D51BF7003694F8 /* StudyBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7112A2029D51BF7003694F8 /* StudyBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBuddyApp.swift; sourceTree = "<group>"; };
 		A7112A2229D51BF7003694F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A7112A2429D51C05003694F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A7112A2729D51C05003694F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A7112A2D29D51C05003694F8 /* StudyBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7112A3129D51C05003694F8 /* StudyBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBuddyTests.swift; sourceTree = "<group>"; };
 		A7112A3729D51C05003694F8 /* StudyBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36B3DBF629D53EAE002DB63D /* FirebaseFirestore in Frameworks */,
+				36B3DBF829D53EAE002DB63D /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +101,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3678915429D6181A006BE614 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3678915129D61811006BE614 /* DataModel.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3678915529D61930006BE614 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3678915629D61989006BE614 /* AddCourseView.swift */,
+				3678915829D61994006BE614 /* AddTaskView.swift */,
+				3678915A29D619B0006BE614 /* EditCourseView.swift */,
+				3678915C29D619BE006BE614 /* EditTaskView.swift */,
+				3678916A29D64618006BE614 /* TaskView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3678915E29D619E4006BE614 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3678916329D61B71006BE614 /* Actions */,
+				3678915F29D61A02006BE614 /* DataController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3678916329D61B71006BE614 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				3678916429D61B91006BE614 /* CourseActions.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		36A6ED7029D54CDA00CC226E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				36A6ED7429D552BE00CC226E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		36B3DBF929D53F25002DB63D /* Classes and Struct */ = {
+			isa = PBXGroup;
+			children = (
+				36B3DBFE29D53F82002DB63D /* User.swift */,
+			);
+			path = "Classes and Struct";
+			sourceTree = "<group>";
+		};
 		A7112A1429D51BF7003694F8 = {
 			isa = PBXGroup;
 			children = (
+				3678916C29D65549006BE614 /* Course+CoreDataClass.swift */,
+				3678916D29D65549006BE614 /* Course+CoreDataProperties.swift */,
+				3678916E29D65549006BE614 /* Task+CoreDataClass.swift */,
+				3678916F29D65549006BE614 /* Task+CoreDataProperties.swift */,
 				A7112A1F29D51BF7003694F8 /* StudyBuddy */,
 				A7112A3029D51C05003694F8 /* StudyBuddyTests */,
 				A7112A3A29D51C05003694F8 /* StudyBuddyUITests */,
@@ -94,20 +181,16 @@
 		A7112A1F29D51BF7003694F8 /* StudyBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				3678915E29D619E4006BE614 /* Controller */,
+				3678915529D61930006BE614 /* Views */,
+				3678915429D6181A006BE614 /* Model */,
+				36A6ED7029D54CDA00CC226E /* Preview Content */,
 				A7112A2029D51BF7003694F8 /* StudyBuddyApp.swift */,
+				36B3DBF929D53F25002DB63D /* Classes and Struct */,
 				A7112A2229D51BF7003694F8 /* ContentView.swift */,
 				A7112A2429D51C05003694F8 /* Assets.xcassets */,
-				A7112A2629D51C05003694F8 /* Preview Content */,
 			);
 			path = StudyBuddy;
-			sourceTree = "<group>";
-		};
-		A7112A2629D51C05003694F8 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				A7112A2729D51C05003694F8 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		A7112A3029D51C05003694F8 /* StudyBuddyTests */ = {
@@ -143,6 +226,10 @@
 			dependencies = (
 			);
 			name = StudyBuddy;
+			packageProductDependencies = (
+				36B3DBF529D53EAE002DB63D /* FirebaseFirestore */,
+				36B3DBF729D53EAE002DB63D /* FirebaseFirestoreSwift */,
+			);
 			productName = StudyBuddy;
 			productReference = A7112A1D29D51BF7003694F8 /* StudyBuddy.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +302,9 @@
 				Base,
 			);
 			mainGroup = A7112A1429D51BF7003694F8;
+			packageReferences = (
+				36B3DBF429D53EAE002DB63D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = A7112A1E29D51BF7003694F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +321,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7112A2829D51C05003694F8 /* Preview Assets.xcassets in Resources */,
 				A7112A2529D51C05003694F8 /* Assets.xcassets in Resources */,
+				36A6ED7529D552BE00CC226E /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +347,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3678916529D61B91006BE614 /* CourseActions.swift in Sources */,
+				3678915B29D619B0006BE614 /* EditCourseView.swift in Sources */,
+				3678917229D65549006BE614 /* Task+CoreDataClass.swift in Sources */,
 				A7112A2329D51BF7003694F8 /* ContentView.swift in Sources */,
 				A7112A2129D51BF7003694F8 /* StudyBuddyApp.swift in Sources */,
+				3678915929D61994006BE614 /* AddTaskView.swift in Sources */,
+				3678915329D61811006BE614 /* DataModel.xcdatamodeld in Sources */,
+				3678917029D65549006BE614 /* Course+CoreDataClass.swift in Sources */,
+				36B3DBFF29D53F82002DB63D /* User.swift in Sources */,
+				3678915729D61989006BE614 /* AddCourseView.swift in Sources */,
+				3678916029D61A02006BE614 /* DataController.swift in Sources */,
+				3678916B29D64618006BE614 /* TaskView.swift in Sources */,
+				3678915D29D619BE006BE614 /* EditTaskView.swift in Sources */,
+				3678917329D65549006BE614 /* Task+CoreDataProperties.swift in Sources */,
+				3678917129D65549006BE614 /* Course+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +686,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		36B3DBF429D53EAE002DB63D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		36B3DBF529D53EAE002DB63D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36B3DBF429D53EAE002DB63D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		36B3DBF729D53EAE002DB63D /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36B3DBF429D53EAE002DB63D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		3678915129D61811006BE614 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3678915229D61811006BE614 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 3678915229D61811006BE614 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A7112A1529D51BF7003694F8 /* Project object */;
 }
